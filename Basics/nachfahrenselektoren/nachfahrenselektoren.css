@@ -1,0 +1,9 @@
+p b {
+  color: blue;
+}
+body span {
+  text-decoration: line-through;
+}
+html p i {
+  text-decoration: underline;
+}

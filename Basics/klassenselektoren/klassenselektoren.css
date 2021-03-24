@@ -1,0 +1,13 @@
+.ersteKlasse {
+  color: red;
+}
+.zweiteKlasse {
+  color: yellow;
+}
+p.zweiteKlasse {
+  font-style: italic;
+  text-decoration: underline;
+}
+span.zweiteKlasse {
+  background-color: grey;
+}

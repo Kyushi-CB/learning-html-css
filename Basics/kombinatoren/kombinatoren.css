@@ -1,0 +1,12 @@
+b ~ span > b {
+  color: red;
+}
+p span.warning {
+  color: orange;
+}
+.warning ~ b {
+  background-color: green;
+}
+html head ~ body > p > b ~ #wichtig {
+  text-decoration: line-through;
+}

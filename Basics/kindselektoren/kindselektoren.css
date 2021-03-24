@@ -1,0 +1,13 @@
+p > span {
+  color: red;
+}
+p > b {
+  color: blue;
+}
+span > b {
+  color: green;
+}
+html > body > p > span > i {
+  color: orange;
+  font-weight: bold;
+}
