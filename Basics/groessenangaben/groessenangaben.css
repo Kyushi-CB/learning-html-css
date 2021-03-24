@@ -1,6 +1,17 @@
+html, body {
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 100%;
+}
 #absolut {
   width: 300px;
   height: 300px;
   font-size: 20px;
   background-color: orange;
+}
+#relativ {
+  width: 20%;
+  height: 20%;
+  background-color: purple;
 }
