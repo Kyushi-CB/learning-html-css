@@ -1,0 +1,22 @@
+#preset {
+  margin: 0 auto 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 70px;
+  width: 500px;
+  height: 300px;
+  background-color: orange;
+  color: green;
+  font-size: 40px;
+}
+#hex {
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 70px;
+  width: 500px;
+  height: 300px;
+  background-color: #2e2e2e;
+  color: #fff;
+  font-size: 40px;
+}
