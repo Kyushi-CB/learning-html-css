@@ -1,3 +1,10 @@
+html, body {
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
 #preset {
   margin: 0 auto 30px;
   text-align: center;
@@ -10,7 +17,7 @@
   font-size: 40px;
 }
 #hex {
-  margin: auto;
+  margin: 0 auto 30px;
   text-align: center;
   box-sizing: border-box;
   padding: 70px;
@@ -19,4 +26,36 @@
   background-color: #2e2e2e;
   color: #fff;
   font-size: 40px;
+}
+#rgb {
+  margin: 0 auto 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 70px;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(50, 100, 0);
+  color: #fff;
+  font-size: 40px;
+}
+#rgba {
+  margin: 0 auto -150px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 70px;
+  width: 500px;
+  height: 300px;
+  background-color: rgba(80, 10, 20, 0.8);
+  color: #fff;
+  font-size: 40px;
+}
+#rgba-bg {
+  margin: 0 auto 30px;
+  z-index: -1;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 150px;
+  background-color: grey;
 }
