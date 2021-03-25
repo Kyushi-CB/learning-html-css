@@ -3,59 +3,86 @@ html, body {
   left: 0;
   margin: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
+  font-size: 25px;
 }
 #preset {
-  margin: 0 auto 30px;
+  margin: 30px auto 30px;
   text-align: center;
   box-sizing: border-box;
-  padding: 70px;
+  padding: 15px;
   width: 500px;
-  height: 300px;
-  background-color: orange;
-  color: green;
-  font-size: 40px;
+  height: 120px;
+  background-color: red;
+  color: #fff;
 }
 #hex {
   margin: 0 auto 30px;
   text-align: center;
   box-sizing: border-box;
-  padding: 70px;
+  padding: 15px;
   width: 500px;
-  height: 300px;
+  height: 120px;
   background-color: #2e2e2e;
   color: #fff;
-  font-size: 40px;
 }
 #rgb {
   margin: 0 auto 30px;
   text-align: center;
   box-sizing: border-box;
-  padding: 70px;
+  padding: 15px;
   width: 500px;
-  height: 300px;
-  background-color: rgb(50, 100, 0);
+  height: 120px;
+  background-color: rgb(50, 150, 0);
   color: #fff;
-  font-size: 40px;
 }
 #rgba {
   margin: 0 auto -150px;
   text-align: center;
   box-sizing: border-box;
-  padding: 70px;
+  padding: 15px;
   width: 500px;
-  height: 300px;
-  background-color: rgba(80, 10, 20, 0.8);
+  height: 120px;
+  background-color: rgba(40, 10, 100, 0.6);
   color: #fff;
-  font-size: 40px;
 }
 #rgba-bg {
-  margin: 0 auto 30px;
+  margin: 70px auto 70px;
   z-index: -1;
   position: relative;
   bottom: 0;
   left: 0;
   width: 600px;
-  height: 150px;
+  height: 40px;
+  background-color: grey;
+}
+#hsl {
+  margin: 0 auto 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+  width: 500px;
+  height: 120px;
+  background-color: hsl(45, 90%, 40%);
+  color: #fff;
+}
+#hsla {
+  margin: 0 auto -150px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+  width: 500px;
+  height: 120px;
+  background-color: hsla(160, 80%, 40%, 0.6);
+  color: #fff;
+}
+#hsla-bg {
+  margin: 70px auto 70px;
+  z-index: -1;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 40px;
   background-color: grey;
 }
