@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Minecraft Regular";
+  src: url(lokaleSchriftarten/Minecraft-Regular.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  font-size: 20px;
+  text-align: center;
+  color: #eee;
+  background-color: #222;
+}
+#serif {
+  font-family: serif;
+}
+#sans-serif {
+  font-family: sans-serif;
+}
+#cursive {
+  font-family: cursive;
+}
+#fantasy {
+  font-family: fantasy;
+}
+#monospace {
+  font-family: monospace;
+}
+#ext {
+  font-family: 'Finger Paint', cursive;
+}
+#local {
+  font-family: "Minecraft Regular";
+}
